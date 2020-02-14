@@ -1,0 +1,24 @@
+.nav {
+    background-color: rgb(194, 164, 164);
+}
+
+h1, a {
+    color: white;
+}
+
+.body {
+    grid-template-columns: 100% auto;
+    grid-template-rows: 50% 50%;
+}
+
+.left {
+    background-color: blue;
+    grid-column-start: 1 / 2;
+    display: grid;
+}
+
+.right {
+    background-color: green;
+    grid-column-start: 2 / 3;
+    display: grid;
+}
