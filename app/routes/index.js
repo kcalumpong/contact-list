@@ -9,7 +9,7 @@ export default class IndexRoute extends Route {
             let { details } = model;
             let id;
 
-            console.log("Hey", data)
+            console.log("Data", data)
             return { id, ...details };
             
         })

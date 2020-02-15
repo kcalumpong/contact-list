@@ -6,6 +6,10 @@ h1, a {
     color: white;
 }
 
+li {
+    list-style: none;
+}
+
 .body {
     grid-template-columns: 100% auto;
     grid-template-rows: 50% 50%;
@@ -21,4 +25,15 @@ h1, a {
     background-color: green;
     grid-column-start: 2 / 3;
     display: grid;
+}
+
+.contact-details {
+    background-color: beige;
+    padding: 5px;
+    margin: 15px;
+
+}
+
+span {
+    font-weight: bold;
 }

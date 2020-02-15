@@ -1,9 +1,13 @@
 <div class="contact-details">
-    <p>Name: {{contact.name}}</p>
-    <p>Phone Number: {{contact.phoneNumber}} </p>
-    <p>Email Address: {{contact.emailAddress}}</p>
-    <p>Home Address: {{contact.homeAddress}}</p>
-    <p>City: {{contact.city}}</p>
-    <p>State: {{contact.state}}</p>
-    <p>Zipcode: {{contact.zipcode}}</p>
+    {{!-- <Contact 
+    src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+    {{@contact.image}}
+    /> --}}
+    <h3>{{@contact.name}}</h3>
+    <p><span>Phone Number:</span> {{@contact.phoneNumber}} </p>
+    <p><span>Email Address:</span> {{@contact.emailAddress}}</p>
+    <p><span>Home Address:</span> {{@contact.homeAddress}}</p>
+    <p><span>City:</span> {{@contact.city}}</p>
+    <p><span>State:</span> {{@contact.state}}</p>
+    <p><span>Zipcode:</span> {{@contact.zipcode}}</p>
 </div>

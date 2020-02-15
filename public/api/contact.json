@@ -6,7 +6,10 @@
               "name": "Charlie Nurkowski",
               "phoneNumber": "310-123-1234",
               "emailAddress": "charliejess@gmail.com",
-              "homeAddress": "555 Cornfield Ave Los Angeles, CA 90066",
+              "homeAddress": "555 Cornfield Ave",
+              "city": "Los Angeles",
+              "state": "CA",
+              "zipcode": 90066,
               "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
             }
           },
@@ -16,7 +19,10 @@
           "name": "Kristina Calumpong",
           "phoneNumber": "310-775-3346",
           "emailAddress": "kcalumpong@gmail.com",
-          "homeAddress": "123 Rainbow Ave Los Angeles, CA 90066",
+          "homeAddress": "123 Rainbow Ave",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipcode": 90094,
           "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
         }
       },
@@ -26,7 +32,10 @@
           "name": "Gabriella Serrato",
           "phoneNumber": "816-123-2222",
           "emailAddress": "g@gabby.com",
-          "homeAddress": "543 Happy Lane Los Angeles, CA 90094",
+          "homeAddress": "543 Happy Lane",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipcode": 90403,
           "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
         }
       }
