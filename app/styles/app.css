@@ -1,9 +1,6 @@
-.nav {
-    background-color: rgb(194, 164, 164);
-}
-
-h1, a {
-    color: white;
+h1, h3, a {
+    color: rgb(49, 47, 47);
+    margin-top: 5px;
 }
 
 li {
@@ -15,25 +12,32 @@ li {
     grid-template-rows: 50% 50%;
 }
 
-.left {
-    background-color: blue;
-    grid-column-start: 1 / 2;
-    display: grid;
-}
-
-.right {
-    background-color: green;
-    grid-column-start: 2 / 3;
-    display: grid;
-}
-
 .contact-details {
-    background-color: beige;
-    padding: 5px;
-    margin: 15px;
-
+  margin-bottom: 50px;
 }
 
 span {
     font-weight: bold;
 }
+
+.jumbo {
+    background-color: rgb(225, 235, 231);
+    padding: 25px;
+}
+
+.button {
+    padding: 10px 30px 10px;
+    text-decoration: none;
+    color: #fff;
+    background: #c5e4c5;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.9;
+    display: inline-block;
+  }
+
+  .id-details {
+      margin-top: 40px;
+  }

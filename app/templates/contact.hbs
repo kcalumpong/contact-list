@@ -1,0 +1,15 @@
+<Jumbo>
+    <h3>Here is the contact information for:</h3>
+    <LinkTo @route="index" class="button">Back to Contacts</LinkTo>
+</Jumbo>
+
+<div class="id-details">
+    <img alt="Image on Contact" src="{{@model.image}}" width="250px" height="300px">
+    <h3>{{@model.name}}</h3>
+    <p><span>Phone Number:</span> {{@model.phoneNumber}} </p>
+    <p><span>Email Address:</span> {{@model.emailAddress}}</p>
+    <p><span>Home Address:</span> {{@model.homeAddress}}</p>
+    <p><span>City:</span> {{@model.city}}</p>
+    <p><span>State:</span> {{@model.state}}</p>
+    <p><span>Zipcode:</span> {{@model.zipcode}}</p>
+</div>
