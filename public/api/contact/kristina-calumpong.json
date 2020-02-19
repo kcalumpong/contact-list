@@ -6,6 +6,9 @@
         "phoneNumber": "310-775-3346",
         "emailAddress": "kcalumpong@gmail.com",
         "homeAddress": "123 Rainbow Ave Los Angeles, CA 90066",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": 90094,
         "image": "https://cdn3.vectorstock.com/i/1000x1000/91/72/asian-girl-avatar-vector-20779172.jpg"
       }
     }

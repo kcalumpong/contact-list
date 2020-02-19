@@ -1,43 +1,13 @@
 {
     "data": [
-        {
-            "id": "charlie-nurkowski",
-            "details": {
-              "name": "Charlie Nurkowski",
-              "phoneNumber": "310-123-1234",
-              "emailAddress": "charliejess@gmail.com",
-              "homeAddress": "555 Cornfield Ave",
-              "city": "Los Angeles",
-              "state": "CA",
-              "zipcode": 90066,
-              "image": "https://cdn4.vectorstock.com/i/1000x1000/50/68/avatar-icon-of-girl-in-a-baseball-cap-vector-16225068.jpg"
-            }
-          },
       {
-        "id": "kristina-calumpong",
-        "details": {
-          "name": "Kristina Calumpong",
-          "phoneNumber": "310-775-3346",
-          "emailAddress": "kcalumpong@gmail.com",
-          "homeAddress": "123 Rainbow Ave",
-          "city": "Los Angeles",
-          "state": "CA",
-          "zipcode": 90094,
-          "image": "https://cdn3.vectorstock.com/i/1000x1000/91/72/asian-girl-avatar-vector-20779172.jpg"
-        }
+        "id": "charlie-nurkowski"
       },
       {
-        "id": "gabriella-serrato",
-        "details": {
-          "name": "Gabriella Serrato",
-          "phoneNumber": "816-123-2222",
-          "emailAddress": "g@gabby.com",
-          "homeAddress": "543 Happy Lane",
-          "city": "Los Angeles",
-          "state": "CA",
-          "zipcode": 90403,
-          "image": "https://cdn5.vectorstock.com/i/1000x1000/50/29/avatar-icon-of-girl-in-a-wide-brim-felt-hat-vector-16225029.jpg"
-        }
+        "id": "kristina-calumpong"
+      },
+      {
+        "id": "gabriella-serrato"
       }
     ]
   }
