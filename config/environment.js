@@ -2,6 +2,9 @@
 
 module.exports = function(environment) {
   let ENV = {
+    'ember-local-storage': {
+      fileExport: true
+    },
     modulePrefix: 'contact-list',
     environment,
     rootURL: '/',

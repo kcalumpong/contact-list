@@ -1,0 +1,45 @@
+<div class="form">
+
+    <p><span>Add New Contact</span></p>
+
+    <form {{@action 'save' on="submit"}}>
+    
+    <label for="idNum">ID #</label>
+    <Input id="idNum" @type="text" @value={{this.idNum}} class="idNum" />
+    <br>
+
+    <label for="firstName">First Name</label>
+    <Input id="firstName" @type="text" @value={{this.firstName}} class="firstName" />
+
+    <label for="lastName">Last Name</label>
+     <Input id="lastName" @type="text" @value={{this.lastName}} class="lastName" />
+    <br>
+
+    <label for="phoneNumber">Phone Number</label>
+     <Input id="phoneNumber" @type="text" @value={{this.phoneNumber}} class="phoneNumber" />
+    <br>
+
+    <label for="site">Email Address</label>
+     <Input id="emailAddress" @type="text" @value={{this.emailAddress}} class="emailAddress" />
+    <br>
+
+    <label for="homeAddress">Home Address</label>
+     <Input id="homeAddress" @type="text" @value={{this.homeAddress}} class="homeAddress" />
+    <br>
+
+    <label for="city">City</label>
+     <Input id="city" @type="text" @value={{this.city}} class="city" />
+
+    <label for="state">State</label>
+     <Input id="state" @type="text" @value={{this.state}} class="state" />
+
+    <label for="zipcode">Zip Code</label>
+     <Input id="zipcode" @type="text" @value={{this.zipcode}} class="zipcode" />
+    <br>
+
+
+    <button {{@action 'submit'}} type="submit">Submit</button>
+     
+    </form>
+
+</div>

@@ -3,6 +3,10 @@ h1, h3, a {
     margin-top: 5px;
 }
 
+.menu {
+    background-color: rgb(128, 148, 103);
+}
+
 li {
     list-style: none;
 }
@@ -23,6 +27,7 @@ span {
 .jumbo {
     background-color: rgb(225, 235, 231);
     padding: 25px;
+    margin-top: -8px;
 }
 
 .button {
@@ -39,5 +44,9 @@ span {
   }
 
   .id-details {
+      margin-top: 40px;
+  }
+
+  img {
       margin-top: 40px;
   }
